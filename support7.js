@@ -32,6 +32,6 @@ if (day == 5 && hour == 18 && minutes >= 30 || day == 5 && hour > 18 || day == 6
 
 var membersAlwaysAvail = ["Desmond","Eric","Gord","Jennifer","Jeremy","Jim","John C","Kevin","Linda","Michael","Paul","Tony","Will"];
 
-for (i = 0; i < membersAlwaysAvail.length; i++) {
-  console.log(membersAlwaysAvail[i] + " (avail 24/7)");
+for (name in membersAlwaysAvail) {
+  console.log(membersAlwaysAvail[name] + " (avail 24/7)");
 }
